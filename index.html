@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @keyframes logoWebmotors {
+            0% {
+                stroke-dashoffset: 350px;
+            }
+
+            50% {
+                stroke-dashoffset: 0px;
+                fill: transparent;
+            }
+
+            100% {
+                stroke-dashoffset: 0px;
+                fill: #f00;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        text {
+            fill: transparent;
+            stroke: #000;
+            stroke-width: 1px;
+            stroke-dasharray: 350px;
+            stroke-dashoffset: 350px;
+            animation: logoWebmotors infinite 5s;
+        }
+    </style>
+</head>
+
+<body>
+    <svg width="350px" height="80">
+        <text y="55px" font-size='55'>WEBMOTORS</text>
+    </svg>
+</body>
+
+</html>
